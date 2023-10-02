@@ -1,0 +1,17 @@
+{
+    "fr": {
+      "presentation": "Présentation",
+      "services": "Services",
+      "skills": "Compétences",
+      "projects": "Travaux",
+      "contact": "Contact"
+    },
+    "en": {
+      "presentation": "Presentation",
+      "services": "Services",
+      "skills": "Skills",
+      "projects": "Projects",
+      "contact": "Contact"
+    }
+  }
+  
