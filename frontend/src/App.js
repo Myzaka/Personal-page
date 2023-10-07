@@ -1,11 +1,14 @@
 import React from 'react';
 import './App.css';
 import Header from './components/Header/Header';
+import Presentation from './components/Presentation/Presentation';
 
 function App() {
   return (
-      <Header language={'fr'}
-        />
+      <body>
+        <Header language={'fr'}/>
+        <Presentation language={'fr'} />
+      </body>
   );
 }
 
