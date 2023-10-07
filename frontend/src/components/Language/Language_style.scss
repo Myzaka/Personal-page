@@ -1,0 +1,14 @@
+@font-face { font-family: Montserrat; src: url('../../assets/font/Montserrat-Regular.ttf'); } 
+@font-face { font-family: Montserrat-Bold; src: url('../../assets/font/Montserrat-Bold.ttf'); }  
+
+.language {
+    font-family: Montserrat;
+    display: flex;
+    justify-content: flex-end;
+    &__selection{
+        display: flex;
+        flex-direction: row;
+        list-style-type: none;
+        margin-right: 20px;
+        }
+    }
