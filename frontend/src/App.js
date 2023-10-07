@@ -2,13 +2,15 @@ import React from 'react';
 import './App.css';
 import Header from './components/Header/Header';
 import Presentation from './components/Presentation/Presentation';
+import Services from './components/Services/Services';
 
 function App() {
   return (
-      <body>
+      <div>
         <Header language={'fr'}/>
         <Presentation language={'fr'} />
-      </body>
+        <Services language={'fr'} />
+      </div>
   );
 }
 
