@@ -1,0 +1,19 @@
+.competences {
+    display: flex;
+    flex-direction: column;
+    &__list{
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between;
+    }
+    &__panel{
+        width: 30%;
+        &--title {
+            font-size: 1em;
+            height: 50px;
+        }
+        &--text {
+            font-size: .9em;
+        }
+    }
+}

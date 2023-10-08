@@ -1,0 +1,22 @@
+.footer {
+    display: flex;
+    flex-direction: column;
+    background-color: #003063;
+    color: white;
+    height : 120px;
+    justify-content: center;
+    align-items: center;
+    font-size: .8em;
+}
+
+.icons {
+    &__Github {
+        color: white;
+        font-size: 2em;
+        margin: 0 10px;
+    }
+    &__LinkedIn {
+        color: white;
+        font-size: 2em;
+    }
+}
