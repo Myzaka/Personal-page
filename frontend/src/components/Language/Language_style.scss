@@ -1,10 +1,19 @@
-.language {
+.languageSelector {
     display: flex;
-    justify-content: flex-end;
-    &__selection{
-        display: flex;
-        flex-direction: row;
-        list-style-type: none;
-        margin-right: 20px;
+    flex-direction: row;
+    align-items: center;
+    margin-left: 20px;
+    &__button{
+        font-family: Montserrat;
+        font-size: 1.1em;
+        background-color: white; // Appliquer un fond blanc
+        border: none; // Supprimer la bordure
+        outline: none; // Supprimer le contour (focus outline)
+        padding: 10px 10px; // Ajouter un espacement interne
+        cursor: pointer;
+        &--selected{
+            color:#E50D6D;
+            border-bottom: 2px solid #E50D6D;
         }
     }
+}
