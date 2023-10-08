@@ -1,8 +1,10 @@
 import React from 'react';
 import './Competences_style.scss';
 import texts from './Competences_text.json';
+import { useLang } from '../Generic/Language_context';
 
-export default function competencesPanel({ language, title, sentence }) {
+export default function CompetencesPanel({ title, sentence }) {
+  const { language } = useLang();
   const text = texts[language];
   const sentences = sentence.split('.');
   

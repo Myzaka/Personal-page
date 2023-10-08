@@ -2,8 +2,10 @@ import React from 'react';
 import './Competences_style.scss';
 import texts from './Competences_text.json';
 import CompetencesPanel from './CompetencesPanel';
+import { useLang } from '../Generic/Language_context';
 
-export default function Competences( {language} ) {
+export default function Competences() {
+    const { language } = useLang();
     const text = texts[language];
     return(
         <section className='competences'>

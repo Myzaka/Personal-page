@@ -2,8 +2,11 @@ import React from 'react';
 import './Header_style.scss';
 import texts from './Header_text.json';
 import LanguageSelector from '../Language/Language';
+import { useLang } from '../Generic/Language_context';
 
-export default function Header({ language }) {
+
+export default function Header() {
+  const { language } = useLang();
   const text = texts[language];
 
   return (
@@ -19,3 +22,4 @@ export default function Header({ language }) {
     </header>
   );
 }
+

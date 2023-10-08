@@ -2,8 +2,10 @@ import React from 'react';
 import './Services_style.scss';
 import texts from './Services_text.json';
 import ServicesPanel from './Services__panel';
+import { useLang } from '../Generic/Language_context';
 
-export default function Services( {language} ) {
+export default function Services() {
+    const { language } = useLang();
     const text = texts[language];
     return(
         <section className='services'>

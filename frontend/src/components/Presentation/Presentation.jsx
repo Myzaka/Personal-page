@@ -1,8 +1,10 @@
 import React from 'react';
 import './Presentation_style.scss';
 import texts from './Presentation_text.json';
+import { useLang } from '../Generic/Language_context';
 
-export default function Presentation( {language} ) {
+export default function Presentation() {
+    const { language } = useLang();
     const text = texts[language];
     return(
         <section className='presentation'>

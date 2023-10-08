@@ -1,14 +1,22 @@
 import React from 'react';
+import { useLang } from '../Generic/Language_context';
 import './Language_style.scss'
 
 export default function LanguageSelector() {
 
+  const { changeLanguage } = useLang();
+
   return (
-    <ul className="language">
-      <li className="language__selection">FR</li>
-      <li className="language__selection">EN</li>
-    </ul>
+    <div>
+      <button onClick={() => changeLanguage('fr')}>FR</button>
+      <button onClick={() => changeLanguage('en')}>EN</button>
+    </div>
   );
 }
+
+
+
+  
+
 
 
