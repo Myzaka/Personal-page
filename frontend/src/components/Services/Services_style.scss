@@ -1,6 +1,7 @@
 .services {
     display: flex;
     flex-direction: column;
+    height : 600px;
     &__list{
         display: flex;
         flex-direction: row;
@@ -10,10 +11,23 @@
         width: 30%;
         &--title {
             font-size: 1em;
-            height: 50px;
+            max-height: 50px;
+            transition: .6s;
+            padding: 5px;
         }
-        &--text {
+        &--titleColored {
+            background-color: #003063;
+            color: white;
+            transition: .6s;
+        }
+        &--textVisible {
+            opacity:1;
             font-size: .9em;
+            transition: .6s;
+        }
+        &--textHidden {
+            opacity:0;
+            transition: .6s;
         }
     }
 }
