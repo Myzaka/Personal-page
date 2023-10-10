@@ -5,7 +5,13 @@
     font-family: Montserrat;
     display: flex;
     justify-content: flex-end;
-
+    align-items: center;
+    box-shadow: 0px 2px 4px rgba(0, 0, 0, 0.1); /* Ajustez les valeurs selon vos préférences */
+    height:70px;
+    position: fixed;
+    top: 0;
+    width: 100%;
+    background-color: white;
     &__list{
         display: flex;
         flex-direction: row;
