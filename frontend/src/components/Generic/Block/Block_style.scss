@@ -1,0 +1,37 @@
+.services {
+    display: flex;
+    flex-direction: column;
+    height : 600px;
+    &__list{
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between;
+    }
+    &__panel{
+        width: 30%;
+        &--title {
+            font-size: 1em;
+            max-height: 50px;
+            transition: .6s;
+            padding: 5px;
+        }
+        &--titleColored {
+            background-color: #003063;
+            color: white;
+            transition: .6s;
+        }
+        &--textVisible {
+            //opacity:1;
+            font-size: .9em;
+            //transition: .6s;
+            max-height: 200px; /* Utilisez une valeur suffisamment grande pour couvrir le contenu */
+            transition: max-height 0.6s ease; /* Ajoutez la transition de 0.6s vers le bas */
+            overflow: hidden;
+        }
+        &--textHidden {
+            max-height: 0;
+            opacity:0;
+            transition: max-height 0.6s ease;
+        }
+    }
+}

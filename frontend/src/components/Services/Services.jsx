@@ -1,7 +1,8 @@
 import React from 'react';
 import './Services_style.scss';
 import texts from './Services_text.json';
-import ServicesPanel from './Services__panel';
+import Block from '../Generic/Block/Block';
+import '../Generic/Block/Block_style.scss';
 import { useLang } from '../Generic/Language_context';
 
 export default function Services() {
@@ -11,19 +12,19 @@ export default function Services() {
         <section className='services'>
             <h1>Services</h1>
             <div className='services__list'>
-                <ServicesPanel
+                <Block
                     language={'fr'}
-                    title={'title1'}
+                    title={text['title1']}
                     sentence={text['text1']}
                     />
-                <ServicesPanel
+                <Block
                     language={'fr'}
-                    title={'title2'}
+                    title={text['title2']}
                     sentence={text['text2']}
                     />
-                <ServicesPanel
+                <Block
                     language={'fr'}
-                    title={'title3'}
+                    title={text['title3']}
                     sentence={text['text3']}
                     />
             </div>

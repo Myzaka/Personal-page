@@ -1,11 +1,7 @@
 import React, { useState } from 'react';
-import './Services_style.scss';
-import texts from './Services_text.json';
-import { useLang } from '../Generic/Language_context';
+import './Block_style.scss';
 
-export default function ServicesPanel({ title, sentence }) {
-  const { language } = useLang();
-  const text = texts[language];
+export default function Block({ title, sentence }) {
   const sentences = sentence.split('.');
   const filteredSentences = sentences.filter(e => e.trim() !== '');
 
@@ -26,7 +22,7 @@ export default function ServicesPanel({ title, sentence }) {
         onMouseEnter={handleMouseEnter}
         onMouseLeave={handleMouseLeave}
       >
-        {text[title]}
+        {title}
       </h3>
         <div className={`${
                 isHovered ? 'services__panel--textVisible' : 'services__panel--textHidden'
@@ -34,9 +30,6 @@ export default function ServicesPanel({ title, sentence }) {
           {filteredSentences.map((e, index) => (
             <p
               key={index}
-              /*className={`${
-                isHovered ? 'services__panel--textVisible' : 'services__panel--textHidden'
-              }`}*/
             >
               {e.trim()}.
             </p>
