@@ -1,7 +1,8 @@
 import React from 'react';
 import './Competences_style.scss';
 import texts from './Competences_text.json';
-import CompetencesPanel from './CompetencesPanel';
+import Block from '../Generic/Block/Block';
+import '../Generic/Block/Block_style.scss';
 import { useLang } from '../Generic/Language_context';
 
 export default function Competences() {
@@ -11,19 +12,19 @@ export default function Competences() {
         <section className='competences'>
             <h1>Competences</h1>
             <div className='competences__list'>
-                <CompetencesPanel
+                <Block
                     language={'fr'}
-                    title={'title1'}
+                    title={text['title1']}
                     sentence={text['text1']}
                     />
-                <CompetencesPanel
+                <Block
                     language={'fr'}
-                    title={'title2'}
+                    title={text['title2']}
                     sentence={text['text2']}
                     />
-                <CompetencesPanel
+                <Block
                     language={'fr'}
-                    title={'title3'}
+                    title={text['title3']}
                     sentence={text['text3']}
                     />
             </div>
