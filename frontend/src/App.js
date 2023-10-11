@@ -4,7 +4,7 @@ import './App.css';
 import Header from './components/Header/Header';
 import Presentation from './components/Presentation/Presentation';
 import Services from './components/Services/Services';
-import Competences from './components/Competences/Competences';
+import Skills from './components/Skills/Skills';
 import Footer from './components/Footer/Footer';
 
 function App() {
@@ -14,7 +14,7 @@ function App() {
         <Header language={'fr'}/>
         <Presentation language={'fr'} />
         <Services language={'fr'} />
-        <Competences language={'fr'} />
+        <Skills language={'fr'} />
         <Footer language={'fr'} />
       </div>
     </LanguageContext>

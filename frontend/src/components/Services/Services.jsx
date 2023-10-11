@@ -9,7 +9,7 @@ export default function Services() {
     const { language } = useLang();
     const text = texts[language];
     return(
-        <section className='services'>
+        <section className='services' id='services'>
             <h1>Services</h1>
             <div className='services__list'>
                 <Block

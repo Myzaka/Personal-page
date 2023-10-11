@@ -7,7 +7,7 @@ export default function Presentation() {
     const { language } = useLang();
     const text = texts[language];
     return(
-        <section className='presentation'>
+        <section className='presentation' id='presentation'>
             <div className='presentation__panel1'>
                 <h1 className='presentation__maintitle'>{text.name}</h1>
                 <h2 className='presentation__subtitle'>{text.offer}</h2>
