@@ -13,17 +13,14 @@ export default function Skills() {
             <h1>Competences</h1>
             <div className='skills__list'>
                 <Block
-                    language={'fr'}
                     title={text['title1']}
                     sentence={text['text1']}
                     />
                 <Block
-                    language={'fr'}
                     title={text['title2']}
                     sentence={text['text2']}
                     />
                 <Block
-                    language={'fr'}
                     title={text['title3']}
                     sentence={text['text3']}
                     />

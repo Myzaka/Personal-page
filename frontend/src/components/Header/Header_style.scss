@@ -6,7 +6,7 @@
     display: flex;
     justify-content: flex-end;
     align-items: center;
-    box-shadow: 0px 2px 4px rgba(0, 0, 0, 0.1); /* Ajustez les valeurs selon vos préférences */
+    box-shadow: 0px 2px 4px rgba(0, 0, 0, 0.1);
     height:70px;
     position: fixed;
     top: 0;
@@ -30,3 +30,10 @@
         }
     }
 }
+
+.active {
+    background-color: #003063;
+    color: white;
+    border: none;
+  }
+  

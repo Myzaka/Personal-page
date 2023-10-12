@@ -1,0 +1,18 @@
+@font-face { font-family: Montserrat; src: url('../../assets/font/Montserrat-Regular.ttf'); } 
+@font-face { font-family: Montserrat-Bold; src: url('../../assets/font/Montserrat-Bold.ttf'); }  
+
+.Anchor {
+    font-family: Montserrat;
+    height: 56px;
+    padding: 7px;
+    background-color: white;
+    color: #003063;
+    display: flex;
+    align-items: center;
+    //box-shadow: 0px 0px 4px rgba(0, 0, 0, 0.1);
+}
+
+.active {
+    background-color: #003063;
+    color: white;
+}
