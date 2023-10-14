@@ -1,8 +1,9 @@
 .services {
     display: flex;
     flex-direction: column;
-    padding-top: 300px;
-    height: 200px;
+    padding-top: 350px;
+    //height: 200px;
+    height: 100vh;
     &__list{
         display: flex;
         flex-direction: row;

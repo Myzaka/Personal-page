@@ -1,23 +1,36 @@
-import React, { useState } from 'react';
+import React from 'react';
 import './Anchor_style.scss';
 import texts from './Header_text.json';
 import { useLang } from '../Generic/Language_context';
 
-export default function Anchor({ label }) {
+export default function Anchor({ label, active, onActiveChange }) {
     const { language } = useLang();
     const text = texts[language];
 
-    // État pour suivre l'élément actif
-    const [isActive, setIsActive] = useState(false);
-
     // Gestionnaire de clic pour les liens
     const handleItemClick = () => {
-        setIsActive(!isActive); // Inversez l'état actif lorsque vous cliquez
+
+        // Récupérer l'élément cible par son nom (label)
+        const targetElement = document.getElementById(label);
+
+        if (targetElement) {
+            // Faire défiler la page jusqu'à l'élément cible
+            targetElement.scrollIntoView({ behavior: 'smooth' });
+        }
+    };
+
+    // Déterminez la classe CSS en fonction active
+    const determineClassName = () => {
+        if (active === 'Y') {
+            return 'Anchor active';
+        } else {
+            return 'Anchor';
+        }
     };
 
     return (
         <div
-            className={`Anchor ${isActive ? 'active' : ''}`}
+            className={determineClassName()}
             onClick={handleItemClick}
         >
             {text[label]}

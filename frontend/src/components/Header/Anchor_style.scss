@@ -4,12 +4,13 @@
 .Anchor {
     font-family: Montserrat;
     height: 56px;
+    min-width: 50px;
     padding: 7px;
     background-color: white;
     color: #003063;
     display: flex;
     align-items: center;
-    //box-shadow: 0px 0px 4px rgba(0, 0, 0, 0.1);
+    cursor: pointer;
 }
 
 .active {

@@ -1,8 +1,9 @@
 .skills {
     display: flex;
     flex-direction: column;
-    padding-top: 300px;
-    height: 900px;
+    padding-top: 350px;
+    //height: 900px;
+    height: 100vh;
     &__list{
         display: flex;
         flex-direction: row;

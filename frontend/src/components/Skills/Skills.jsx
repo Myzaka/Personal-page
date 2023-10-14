@@ -10,7 +10,7 @@ export default function Skills() {
     const text = texts[language];
     return(
         <section className='skills' id='skills'>
-            <h1>Competences</h1>
+            <h2>Competences</h2>
             <div className='skills__list'>
                 <Block
                     title={text['title1']}
