@@ -1,0 +1,11 @@
+.projects {
+    display: flex;
+    flex-direction: column;
+    padding-top: 350px;
+    height: 100vh;
+    &__list{
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between;
+    }
+}

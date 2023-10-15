@@ -1,0 +1,41 @@
+.Card {
+    width: 20%;
+    aspect-ratio: 1/1;
+    position: relative;
+    overflow: hidden;
+    &__image {
+        display: block;
+        width: 100%;
+        height: 100%;
+        object-fit: cover;
+        border: solid 1px;
+    }
+    &__overlay {
+        position: absolute;
+        top: 0;
+        left: 0;
+        width: 100%;
+        height: 80%;
+        background-color: rgba(0, 48, 99, 0.9); /* Couleur bleue avec 90% de transparence */
+        opacity: 0; /* Au départ, le voile est invisible */
+        transition: opacity 0.3s; /* Une transition pour une apparition en douceur */
+        color: white;
+        }
+    &:hover .Card__overlay {
+        opacity: 1;
+    }
+    &:hover .Card__comment {
+        color: rgba(0, 48, 99, 0.9);
+    }
+    &__comment {
+        position:relative;
+        top: -20%;
+        background-color:  rgba(0, 48, 99, 0.9);
+        color: white;
+        height: 20%;
+        margin: 0;
+    }
+}
+
+
+

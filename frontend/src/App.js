@@ -35,6 +35,7 @@ import Presentation from './components/Presentation/Presentation';
 import Services from './components/Services/Services';
 import Skills from './components/Skills/Skills';
 import Footer from './components/Footer/Footer';
+import Projects from './components/Projects/Projects';
 import Parallax from './components/Generic/Parallax';
 
 function App() {
@@ -66,14 +67,15 @@ function App() {
   return (
     <LanguageContext>
       <div>
-        <Header language={'fr'} activeSection={activeSection} />
+        <Header activeSection={activeSection} />
         <div className='body'>
-          <Presentation language={'fr'} />
+          <Presentation />
           <Parallax />
-          <Services language={'fr'} />
-          <Skills language={'fr'} />
+          <Services />
+          <Skills />
+          <Projects />
         </div>
-        <Footer language={'fr'} />
+        <Footer />
       </div>
     </LanguageContext>
   );
