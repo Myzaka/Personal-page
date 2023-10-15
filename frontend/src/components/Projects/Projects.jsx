@@ -8,9 +8,20 @@ export default function Projects() {
     const { language } = useLang();
     const text = texts[language];
     return(
-        <section className='projects photo-hover' id='projects'>
+        <section className='projects' id='projects'>
             <h2>{text['title']}</h2>
             <div className='projects__list'>
+                <CardPresentation />
+                <CardPresentation />
+                <CardPresentation />
+                <CardPresentation />
+                <CardPresentation />
+                <CardPresentation />
+                <CardPresentation />
+                <CardPresentation />
+                <CardPresentation />
+                <CardPresentation />
+                <CardPresentation />
                 <CardPresentation />
             </div>
         </section>

@@ -3,7 +3,7 @@ import './Anchor_style.scss';
 import texts from './Header_text.json';
 import { useLang } from '../Generic/Language_context';
 
-export default function Anchor({ label, active, onActiveChange }) {
+export default function Anchor({ label, active }) {
     const { language } = useLang();
     const text = texts[language];
 

@@ -74,8 +74,9 @@ function App() {
           <Services />
           <Skills />
           <Projects />
+          <Footer />
         </div>
-        <Footer />
+        
       </div>
     </LanguageContext>
   );

@@ -2,10 +2,12 @@
     display: flex;
     flex-direction: column;
     padding-top: 350px;
-    height: 100vh;
+    height: 200vh;
+    margin-bottom: 5px;
     &__list{
         display: flex;
         flex-direction: row;
+        flex-wrap: wrap;
         justify-content: space-between;
     }
 }
