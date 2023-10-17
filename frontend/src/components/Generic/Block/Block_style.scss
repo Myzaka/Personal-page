@@ -9,10 +9,11 @@
     }
     &__panel{
         width: 30%;
+        height: auto;
         &--title {
             font-size: 1em;
-            max-height: 50px;
-            transition: .6s;
+            max-height: 200px;
+            transition: max-height .6s;
             padding: 5px;
         }
         &--titleColored {

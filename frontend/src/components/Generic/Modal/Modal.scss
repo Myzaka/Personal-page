@@ -1,0 +1,29 @@
+//@font-face { font-family: Montserrat; src: url('../../assets/font/Montserrat-Regular.ttf'); } 
+//@font-face { font-family: Montserrat-Bold; src: url('../../assets/font/Montserrat-Bold.ttf'); }  
+
+.PopUpWindow__buttonEnveloppe {
+    width: 100%;
+    margin: 0;
+    display: flex;
+    justify-content: right;
+}
+
+.PopUpWindow__button {
+    font-family: Montserrat;
+    background-color: transparent;
+    border:none;
+    color: white;
+    position: relative;
+    padding: 0;
+    text-decoration: none;
+}
+
+:hover .PopUpWindow__button {
+    font-family: Montserrat;
+    background-color: transparent;
+    border:none;
+    color: white;
+    position: relative;
+    padding: 0;
+    text-decoration: underline;
+}

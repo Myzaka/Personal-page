@@ -20,6 +20,10 @@
         opacity: 0; /* Au départ, le voile est invisible */
         transition: opacity 0.3s; /* Une transition pour une apparition en douceur */
         color: white;
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+        padding: 5px;
         }
     &:hover .Card__overlay {
         opacity: 1;
@@ -35,6 +39,7 @@
         height: 20%;
         margin: 0;
     }
+
 }
 
 
