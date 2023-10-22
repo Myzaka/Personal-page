@@ -1,17 +1,23 @@
 import { useState } from 'react';
 import Button from 'react-bootstrap/Button';
 import Modal from 'react-bootstrap/Modal';
-import './Modal.scss'
+import './Modal.scss';
+import arrow from '../../../assets/image/arrow-right-solid.svg';
 
 function PopUpWindow() {
   const [show, setShow] = useState(false);
 
   return (
     <>
-      <div className='PopUpWindow__buttonEnveloppe'>
-        <Button variant="primary" className="PopUpWindow__button" onClick={() => setShow(true)}>
-          Plus d'info
-        </Button>
+      <div variant="primary" className="button" onClick={() => setShow(true)}>
+        <div className='button__text'>
+          <p className="button__text--descriptionHigh">
+            TEST
+          </p>
+          <p className="button__text--descriptionLow">
+            Plus d'info <img className='button__text--descriptionLowArrow' src={arrow} alt="arrow" />
+          </p>   
+        </div>
       </div>
       
       <Modal

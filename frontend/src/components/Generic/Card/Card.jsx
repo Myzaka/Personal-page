@@ -1,16 +1,15 @@
 import React from 'react';
-import bridge from '../../../assets/image/bridge.jpg';
+import test from './test.png';
 import './Card.scss';
 import PopUpWindow from '../Modal/Modal';
 
 export default function CardPresentation() {
   return(<div className="Card">
-    <img className="Card__image" src={bridge} alt ="bridge" />
+    <img className="Card__image" src={test} alt ="test" />
     <div className='Card__overlay'>
-      TEST
       <PopUpWindow />
     </div>
-    <p className="Card__comment">
+    <p className="Card__comment--low">
       TEST</p>
   </div>)
 }
