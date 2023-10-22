@@ -27,6 +27,7 @@ export default function Block({ title, sentence }) {
         <div className={`${
                 isHovered ? 'services__panel--textVisible' : 'services__panel--textHidden'
               }`}>
+                
           {filteredSentences.map((e, index) => (
             <p
               key={index}

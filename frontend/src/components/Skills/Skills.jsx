@@ -4,13 +4,16 @@ import texts from './Skills_text.json';
 import Block from '../Generic/Block/Block';
 import '../Generic/Block/Block_style.scss';
 import { useLang } from '../Generic/Language_context';
+import Parallax from '../Generic/Parallax';
 
 export default function Skills() {
     const { language } = useLang();
     const text = texts[language];
     return(
         <section className='skills' id='skills'>
-            <h2>{text['title']}</h2>
+            <div>
+                <Parallax section='Skills'/>
+            </div>
             <div className='skills__list'>
                 <Block
                     title={text['title1']}

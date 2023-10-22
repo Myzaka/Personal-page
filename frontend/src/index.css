@@ -2,7 +2,7 @@
 @font-face { font-family: Montserrat-Bold; src: url('./assets/font/Montserrat-Bold.ttf'); }  
 
 body {
-  margin: 0 10px;
+  margin: 0;
   font-family: Montserrat;
   color: #003063;
   -webkit-font-smoothing: antialiased;
