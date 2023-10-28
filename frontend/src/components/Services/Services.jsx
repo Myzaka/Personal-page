@@ -12,10 +12,12 @@ export default function Services() {
     const { language } = useLang();
     const text = texts[language];
     return(
+        <>
+        <h2 className='title'>
+            {text['title']}
+        </h2>
         <section className='services' id='services'>
-            <div>
-                <Parallax section='Services'/>
-            </div>
+
             <div className='services__list'>
                 <Block
                     language={'fr'}
@@ -34,5 +36,6 @@ export default function Services() {
                     />
             </div>
         </section>
+        </>
     )
 }

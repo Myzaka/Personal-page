@@ -10,24 +10,26 @@ export default function Skills() {
     const { language } = useLang();
     const text = texts[language];
     return(
-        <section className='skills' id='skills'>
-            <div>
-                <Parallax section='Skills'/>
-            </div>
-            <div className='skills__list'>
-                <Block
-                    title={text['title1']}
-                    sentence={text['text1']}
-                    />
-                <Block
-                    title={text['title2']}
-                    sentence={text['text2']}
-                    />
-                <Block
-                    title={text['title3']}
-                    sentence={text['text3']}
-                    />
-            </div>
-        </section>
+        <>
+            <h2 className='title'>
+                {text['title']}
+            </h2>
+            <section className='skills' id='skills'>
+                <div className='skills__list'>
+                    <Block
+                        title={text['title1']}
+                        sentence={text['text1']}
+                        />
+                    <Block
+                        title={text['title2']}
+                        sentence={text['text2']}
+                        />
+                    <Block
+                        title={text['title3']}
+                        sentence={text['text3']}
+                        />
+                </div>
+            </section>
+        </>
     )
 }

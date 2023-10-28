@@ -43,18 +43,19 @@ import Parallax2 from './components/Generic/Parallax2';
 import Contact from './components/Contact/Contact';
 
 function App() {
-  const sectionIds = useMemo(() => ['header', 'presentation', 'services', 'skills'], []);
+  const sectionIds = useMemo(() => ['header', 'presentation', 'services', 'skills', 'projects', 'contact'], []);
 
   const [activeSection, setActiveSection] = useState(sectionIds[0]);
 
   useEffect(() => {
     const handleScroll = () => {
       const scrollY = window.scrollY;
-
+      //console.log ('scrollY : ' + window.scrollY);
       for (let i = sectionIds.length - 1; i >= 0; i--) {
         const sectionId = sectionIds[i];
         const section = document.getElementById(sectionId);
-        if (section.offsetTop <= scrollY) {
+        //console.log(sectionId + ' ' + section.offsetTop);
+        if (section.offsetTop <= (scrollY+500)) {
           setActiveSection(sectionId);
           break;
         }

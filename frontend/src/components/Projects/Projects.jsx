@@ -8,20 +8,22 @@ export default function Projects() {
     const { language } = useLang();
     const text = texts[language];
     return(
-        <section className='projects' id='projects'>
-            <h2>{text['title']}</h2>
-            <div className='projects__list'>
-                <CardPresentation />
-                <CardPresentation />
-                <CardPresentation />
-                <CardPresentation />
-                <CardPresentation />
-                <CardPresentation />
-                <CardPresentation />
-                <CardPresentation />
-                <CardPresentation />
-                <CardPresentation />
-            </div>
-        </section>
+        <>
+            <h2 className='title'>{text['title']}</h2>
+            <section className='projects' id='projects'>
+                <div className='projects__list'>
+                    <CardPresentation />
+                    <CardPresentation />
+                    <CardPresentation />
+                    <CardPresentation />
+                    <CardPresentation />
+                    <CardPresentation />
+                    <CardPresentation />
+                    <CardPresentation />
+                    <CardPresentation />
+                    <CardPresentation />
+                </div>
+            </section>
+        </>
     )
 }

@@ -1,9 +1,11 @@
 .projects {
     display: flex;
     flex-direction: column;
-    padding-top: 350px;
+    //padding-top: 350px;
     height: 200vh;
-    margin-bottom: 5px;
+    margin: 0;
+    padding-bottom: 160 px;
+    background-color: white;
     &__list{
         display: flex;
         flex-direction: row;

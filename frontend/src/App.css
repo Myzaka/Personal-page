@@ -3,7 +3,22 @@
 
 .body {
     background-color: transparent;
+    background-image: url("../src/assets/image/test.png");
+    background-attachment: fixed;
+    background-size: cover;
+
     height: 100%;
     margin: 0;
     padding: 0;
+}
+
+.title {
+    height: 150px;
+    background-color: transparent;
+    display: flex;
+    align-items: center;
+}
+
+.section {
+    margin: 0;
 }
