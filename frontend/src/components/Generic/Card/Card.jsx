@@ -3,13 +3,17 @@ import test from './test.png';
 import './Card.scss';
 import PopUpWindow from '../Modal/Modal';
 
-export default function CardPresentation() {
+export default function CardPresentation({title, description}) {
   return(<div className="Card">
     <img className="Card__image" src={test} alt ="test" />
     <div className='Card__overlay'>
-      <PopUpWindow />
+      <PopUpWindow
+        title={title}
+        description={description}
+      />
     </div>
-    <p className="Card__comment--low">
-      TEST</p>
+    <div className="Card__comment--low">
+      <h4>{description}</h4>
+    </div>
   </div>)
 }

@@ -1,21 +1,26 @@
 import { useState } from 'react';
+import { useLang } from '../../Generic/Language_context';
 import Button from 'react-bootstrap/Button';
 import Modal from 'react-bootstrap/Modal';
 import './Modal.scss';
 import arrow from '../../../assets/image/arrow-right-solid.png';
+import texts from '../../Projects/ProjectsList/ProjectisList_text.json';
 
-function PopUpWindow() {
+function PopUpWindow({title, description}) {
   const [show, setShow] = useState(false);
+  const { language } = useLang();
+  const text = texts[language];
 
   return (
     <>
       <div variant="primary" className="button" onClick={() => setShow(true)}>
         <div className='button__text'>
-          <p className="button__text--descriptionHigh">
-            TEST
-          </p>
+          <div className="button__text--descriptionHigh">
+            <h3>{description}</h3>
+            <h4>{title}</h4>
+          </div>
           <p className="button__text--descriptionLow">
-            Plus d'info <img className='button__text--descriptionLowArrow' src={arrow} alt="arrow" />
+             <img className='button__text--descriptionLowArrow' src={arrow} alt="arrow" />
           </p>   
         </div>
       </div>

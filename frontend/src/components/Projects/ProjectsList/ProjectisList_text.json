@@ -1,0 +1,66 @@
+{
+    "fr": {
+        "project1": {
+            "type":"Gestion de projet",
+            "description_short":"Outil d'auto-évaluation du contrôle interne",
+            "description_long":""
+        },
+        "project2": {
+            "type":"Conception d'outil",
+            "description_short":"Cartographie des risques",
+            "description_long":""
+        },
+        "project3": {
+            "type":"Gestion de projet",
+            "description_short":"Outil d'évaluation des tiers (loi Sapin II)",
+            "description_long":""
+        },
+        "project4": {
+            "type":"Gestion de projet",
+            "description_short":"Ligne d'alerte éthique (loi Sapin II)",
+            "description_long":""
+        },
+        "project5": {
+            "type":"Conception d'outil",
+            "description_short":"Analyse de la séparation des tâches en entreprise",
+            "description_long":""
+        },
+        "project6": {
+            "type":"Portage web",
+            "description_short":"Evaluation de la conformité de moyens de paiement",
+            "description_long":""
+        },
+        "project7": {
+            "type":"Gestion de projet",
+            "description_short":"Outil de BI pour l'analyse de campagnes de contrôle interne",
+            "description_long":""
+        },
+        "project8": {
+            "type":"Gestion de projet",
+            "description_short":"Outil de tenue de registre de traitement (RGPD)",
+            "description_long":""
+        },
+        "project9": {
+            "type":"Portage web",
+            "description_short":"Développement du site d'une agence immobilière",
+            "description_long":""
+        },
+        "project10": {
+            "type":"Portage web",
+            "description_short":"Optimisation du site d'un photographe",
+            "description_long":""
+        }
+    },
+    "en": {
+        "project1": {
+            "title":"",
+            "description_short":"",
+            "description_long":""
+            },
+            "project2": {
+            "title":"",
+            "description_short":"",
+            "description_long":""
+            }
+    }
+  }
