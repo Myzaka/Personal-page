@@ -12,6 +12,15 @@ export default function Projects() {
             <h2>{text['title']}</h2>
             <div className='projects__list'>
                 <CardPresentation />
+                <CardPresentation />
+                <CardPresentation />
+                <CardPresentation />
+                <CardPresentation />
+                <CardPresentation />
+                <CardPresentation />
+                <CardPresentation />
+                <CardPresentation />
+                <CardPresentation />
             </div>
         </section>
     )

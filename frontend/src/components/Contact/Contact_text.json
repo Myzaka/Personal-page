@@ -1,0 +1,14 @@
+{
+    "fr": {
+      "title":"Contact",
+      "messageTitle": "Titre du message",
+      "email": "Adresse email",
+      "message": "Message"
+    },
+    "en": {
+      "title":"Contact",
+      "messageTitle": "Message title",
+      "email": "Email address",
+      "message": "Message"
+    }
+  }

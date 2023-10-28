@@ -40,6 +40,7 @@ import Parallax from './components/Generic/Parallax';
 import { ParallaxProvider } from 'react-scroll-parallax';
 import PopUpWindow from './components/Generic/Modal/Modal';
 import Parallax2 from './components/Generic/Parallax2';
+import Contact from './components/Contact/Contact';
 
 function App() {
   const sectionIds = useMemo(() => ['header', 'presentation', 'services', 'skills'], []);
@@ -74,10 +75,10 @@ function App() {
         <Header activeSection={activeSection} />
         <div className='body'>
           <Presentation />
-          <PopUpWindow />
           <Services />
           <Skills />
           <Projects />
+          <Contact />
           <Footer />
         </div>
         
