@@ -16,16 +16,16 @@ export default function Block({ title, sentence }) {
   };
 
   return (
-    <div className='services__panel'>
+    <div className='block'>
       <h3
-        className={`services__panel--title ${isHovered ? 'services__panel--titleColored' : 'services__panel--title'}`}
+        className={`block__title ${isHovered ? 'block__titleColored' : 'block__title'}`}
         onMouseEnter={handleMouseEnter}
         onMouseLeave={handleMouseLeave}
       >
         {title}
       </h3>
         <div className={`${
-                isHovered ? 'services__panel--textVisible' : 'services__panel--textHidden'
+                isHovered ? 'block__textVisible' : 'block__textHidden'
               }`}>
                 
           {filteredSentences.map((e, index) => (

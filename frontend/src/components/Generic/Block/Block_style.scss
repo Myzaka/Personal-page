@@ -1,41 +1,34 @@
-.services {
+.block {
     display: flex;
     flex-direction: column;
-    height : 600px;
-    &__list{
-        display: flex;
-        flex-direction: row;
-        justify-content: space-between;
+    margin-top: 50px;
+    width: 30%;
+    height: auto;
+    &__title {
+        font-size: 1em;
+        font-weight: 700;
+        max-height: 200px;
+        transition: max-height .6s;
+        padding: 5px;
+        margin-top: 50px;
     }
-    &__panel{
-        width: 30%;
-        height: auto;
-        &--title {
-            font-size: 1em;
-            font-weight: 700;
-            max-height: 200px;
-            transition: max-height .6s;
-            padding: 5px;
-            margin-top: 50px;
-        }
-        &--titleColored {
-            font-weight: 500;
-            background-color: #003063;
-            color: white;
-            transition: .6s;
-        }
-        &--textVisible {
-            opacity:1;
-            font-size: .9em;
-            max-height: 200px; /* Utilisez une valeur suffisamment grande pour couvrir le contenu */
-            transition: max-height 0.6s ease, opacity 0.6s ease; /* Ajoutez la transition de 0.6s vers le bas */
-            overflow: hidden;
-        }
-        &--textHidden {
-            max-height: 0;
-            opacity:0;
-            font-size: .9em;
-            transition: max-height 0.6s ease;
-        }
+    &__titleColored {
+        font-weight: 500;
+        background-color: #003063;
+        color: white;
+        transition: .6s;
+    }
+    &__textVisible {
+        opacity:1;
+        font-size: .9em;
+        max-height: 200px; /* Utilisez une valeur suffisamment grande pour couvrir le contenu */
+        transition: max-height 0.6s ease, opacity 0.6s ease; /* Ajoutez la transition de 0.6s vers le bas */
+        overflow: hidden;
+    }
+    &__textHidden {
+        max-height: 0;
+        opacity:0;
+        font-size: .9em;
+        transition: max-height 0.6s ease;
     }
 }
