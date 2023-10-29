@@ -3,52 +3,93 @@
         "project1": {
             "type":"Gestion de projet",
             "description_short":"Outil d'auto-évaluation du contrôle interne",
-            "description_long":""
+            "description_long":"",
+            "tech":"NodeJS, Express, MongoDB, Mongoose",
+            "issues":"Création des opérations CRUD. Gestion des fichiers images.",
+            "skills":"Utilisation d'une base de données NoSQL (MongoDB) et mise en place d'un modèle de données. Mettre en place des opérations CRUD de manière sécurisée. Stocker des données de manière sécurisée",
+            "link":"https://github.com/Myzaka/Grimoire"
         },
         "project2": {
             "type":"Conception d'outil",
             "description_short":"Cartographie des risques",
-            "description_long":""
+            "description_long":"",
+            "tech":"NodeJS, Express, MongoDB, Mongoose",
+            "issues":"Création des opérations CRUD. Gestion des fichiers images.",
+            "skills":"Utilisation d'une base de données NoSQL (MongoDB) et mise en place d'un modèle de données. Mettre en place des opérations CRUD de manière sécurisée. Stocker des données de manière sécurisée",
+            "link":"https://github.com/Myzaka/Grimoire"
         },
         "project3": {
             "type":"Gestion de projet",
             "description_short":"Outil d'évaluation des tiers (loi Sapin II)",
-            "description_long":""
+            "description_long":"",
+            "tech":"NodeJS, Express, MongoDB, Mongoose",
+            "issues":"Création des opérations CRUD. Gestion des fichiers images.",
+            "skills":"Utilisation d'une base de données NoSQL (MongoDB) et mise en place d'un modèle de données. Mettre en place des opérations CRUD de manière sécurisée. Stocker des données de manière sécurisée",
+            "link":"https://github.com/Myzaka/Grimoire"
         },
         "project4": {
             "type":"Gestion de projet",
             "description_short":"Ligne d'alerte éthique (loi Sapin II)",
-            "description_long":""
+            "description_long":"",
+            "tech":"NodeJS, Express, MongoDB, Mongoose",
+            "issues":"Création des opérations CRUD. Gestion des fichiers images.",
+            "skills":"Utilisation d'une base de données NoSQL (MongoDB) et mise en place d'un modèle de données. Mettre en place des opérations CRUD de manière sécurisée. Stocker des données de manière sécurisée",
+            "link":"https://github.com/Myzaka/Grimoire"
         },
         "project5": {
             "type":"Conception d'outil",
             "description_short":"Analyse de la séparation des tâches en entreprise",
-            "description_long":""
+            "description_long":"",
+            "tech":"NodeJS, Express, MongoDB, Mongoose",
+            "issues":"Création des opérations CRUD. Gestion des fichiers images.",
+            "skills":"Utilisation d'une base de données NoSQL (MongoDB) et mise en place d'un modèle de données. Mettre en place des opérations CRUD de manière sécurisée. Stocker des données de manière sécurisée",
+            "link":"https://github.com/Myzaka/Grimoire"
         },
         "project6": {
-            "type":"Portage web",
+            "type":"Développement web frontend",
             "description_short":"Evaluation de la conformité de moyens de paiement",
-            "description_long":""
+            "description_long":"",
+            "tech":"NodeJS, Express, MongoDB, Mongoose",
+            "issues":"Création des opérations CRUD. Gestion des fichiers images.",
+            "skills":"Utilisation d'une base de données NoSQL (MongoDB) et mise en place d'un modèle de données. Mettre en place des opérations CRUD de manière sécurisée. Stocker des données de manière sécurisée",
+            "link":"https://github.com/Myzaka/Grimoire"
         },
         "project7": {
             "type":"Gestion de projet",
             "description_short":"Outil de BI pour l'analyse de campagnes de contrôle interne",
-            "description_long":""
+            "description_long":"",
+            "tech":"NodeJS, Express, MongoDB, Mongoose",
+            "issues":"Création des opérations CRUD. Gestion des fichiers images.",
+            "skills":"Utilisation d'une base de données NoSQL (MongoDB) et mise en place d'un modèle de données. Mettre en place des opérations CRUD de manière sécurisée. Stocker des données de manière sécurisée",
+            "link":"https://github.com/Myzaka/Grimoire"
         },
         "project8": {
             "type":"Gestion de projet",
             "description_short":"Outil de tenue de registre de traitement (RGPD)",
-            "description_long":""
+            "description_long":"",
+            "tech":"NodeJS, Express, MongoDB, Mongoose",
+            "issues":"Création des opérations CRUD. Gestion des fichiers images.",
+            "skills":"Utilisation d'une base de données NoSQL (MongoDB) et mise en place d'un modèle de données. Mettre en place des opérations CRUD de manière sécurisée. Stocker des données de manière sécurisée",
+            "link":"https://github.com/Myzaka/Grimoire"
         },
         "project9": {
-            "type":"Portage web",
-            "description_short":"Développement du site d'une agence immobilière",
-            "description_long":""
+            "type":"Développement web frontend",
+            "description_short":"Développement du front d'un site de gestion immobilière",
+            "description_long":"Projet réalisé dans le cadre de ma formation OpenClassrooms de développeur front-end.",
+            "tech":"React, HRML, SASS",
+            "issues":"Elaboration de composants réutilisables. Echange de paramètres entre éléments parents et enfants du site. Création d'un routeur.",
+            "skills":"Développement avec React. Création d'une application avec Create React App. Configurer la navigation entre les pages de l'application avec React Router. Utilisation de bibliothèques externes npm",
+            "link":"https://github.com/Myzaka/Projet-Kasa"
+
         },
         "project10": {
-            "type":"Portage web",
-            "description_short":"Optimisation du site d'un photographe",
-            "description_long":""
+            "type":"Développement web backend",
+            "description_short":"Création du backend d'une librairie en ligne",
+            "description_long":"Projet réalisé dans le cadre de ma formation OpenClassrooms de développeur front-end.",
+            "tech":"NodeJS, Express, MongoDB, Mongoose",
+            "issues":"Création des opérations CRUD. Gestion des fichiers images.",
+            "skills":"Utilisation d'une base de données NoSQL (MongoDB) et mise en place d'un modèle de données. Mettre en place des opérations CRUD de manière sécurisée. Stocker des données de manière sécurisée",
+            "link":"https://github.com/Myzaka/Grimoire"
         }
     },
     "en": {
