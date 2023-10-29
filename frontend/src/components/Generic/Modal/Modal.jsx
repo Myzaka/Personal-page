@@ -5,11 +5,13 @@ import Modal from 'react-bootstrap/Modal';
 import './Modal.scss';
 import arrow from '../../../assets/image/arrow-right-solid.png';
 import texts from '../../Projects/ProjectsList/ProjectisList_text.json';
+import labels from './Modal_text.json';
 
-function PopUpWindow({title, description}) {
+function PopUpWindow({type, description}) {
   const [show, setShow] = useState(false);
   const { language } = useLang();
   const text = texts[language];
+  const label = labels[language];
 
   return (
     <>
@@ -17,10 +19,10 @@ function PopUpWindow({title, description}) {
         <div className='button__text'>
           <div className="button__text--descriptionHigh">
             <h3>{description}</h3>
-            <h4>{title}</h4>
+            <h4>{type}</h4>
           </div>
           <p className="button__text--descriptionLow">
-             <img className='button__text--descriptionLowArrow' src={arrow} alt="arrow" />
+             {label['label']}<img className='button__text--descriptionLowArrow' src={arrow} alt="arrow" />
           </p>   
         </div>
       </div>

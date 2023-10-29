@@ -11,47 +11,47 @@ export default function Projects() {
     const textProject = textsProjects[language];
     return(
         <>
-            <h2 className='title'>{text['title']}</h2>
+            <h2 className='type'>{text['type']}</h2>
             <section className='projects' id='projects'>
                 <div className='projects__list'>
                     <CardPresentation 
-                        title={textProject["project1"]["title"]}
+                        type={textProject["project1"]["type"]}
                         description={textProject["project1"]["description_short"]}
                     />
                     <CardPresentation 
-                        title={textProject["project2"]["title"]}
+                        type={textProject["project2"]["type"]}
                         description={textProject["project2"]["description_short"]}
                     />
                     <CardPresentation 
-                        title={textProject["project3"]["title"]}
+                        type={textProject["project3"]["type"]}
                         description={textProject["project3"]["description_short"]}
                     />
                     <CardPresentation 
-                        title={textProject["project4"]["title"]}
+                        type={textProject["project4"]["type"]}
                         description={textProject["project4"]["description_short"]}
                     />
                     <CardPresentation 
-                        title={textProject["project5"]["title"]}
+                        type={textProject["project5"]["type"]}
                         description={textProject["project5"]["description_short"]}
                     />
                     <CardPresentation 
-                        title={textProject["project6"]["title"]}
+                        type={textProject["project6"]["type"]}
                         description={textProject["project6"]["description_short"]}
                     />
                     <CardPresentation 
-                        title={textProject["project7"]["title"]}
+                        type={textProject["project7"]["type"]}
                         description={textProject["project7"]["description_short"]}
                     />
                     <CardPresentation 
-                        title={textProject["project8"]["title"]}
+                        type={textProject["project8"]["type"]}
                         description={textProject["project8"]["description_short"]}
                     />
                     <CardPresentation 
-                        title={textProject["project9"]["title"]}
+                        type={textProject["project9"]["type"]}
                         description={textProject["project9"]["description_short"]}
                     />
                     <CardPresentation 
-                        title={textProject["project10"]["title"]}
+                        type={textProject["project10"]["type"]}
                         description={textProject["project10"]["description_short"]}
                     />
                 </div>
