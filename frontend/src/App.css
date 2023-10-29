@@ -3,9 +3,12 @@
 
 .body {
     background-color: transparent;
-    background-image: url("../src/assets/image/test.png");
+    background-image: url("../src/assets/image/test.png"), linear-gradient(rgba(243, 244, 245, 1), rgba(243, 244, 245, 1));
     background-attachment: fixed;
-    background-size: cover;
+    /*background-size: cover;*/
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position: center;
 
     height: 100%;
     margin: 0;
