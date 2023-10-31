@@ -45,11 +45,16 @@ function PopUpWindow({project, image}) {
               <img src={image} className='modal__container--image' alt={image} />
             </div>
             <div className='modal__text'>
+              <p className='modal__text--title'>{text[project]['description_label']}</p>
               <p>{text[project]['description_long']}</p>
+              <p className='modal__text--title'>{text[project]['tech_label']}</p>
               <p>{text[project]['tech']}</p>
+              <p className='modal__text--title'>{text[project]['issues_label']}</p>
               <p>{text[project]['issues']}</p>
+              <p className='modal__text--title'>{text[project]['skills_label']}</p>
               <p>{text[project]['skills']}</p>
-              <p>{text[project]['link']}</p>
+              <p className='modal__text--title'>{text[project]['link_label']}</p>
+              <a href={text[project]['link']}>{text[project]['link']}</a>
             </div>
           </>
 
