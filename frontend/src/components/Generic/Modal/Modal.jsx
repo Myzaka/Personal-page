@@ -7,7 +7,7 @@ import arrow from '../../../assets/image/arrow-right-solid.png';
 import texts from '../../Projects/ProjectsList/ProjectisList_text.json';
 import labels from './Modal_text.json';
 
-function PopUpWindow({type, description, image, description_long, tech, issues, skills, link}) {
+function PopUpWindow({project, image}) {
   const [show, setShow] = useState(false);
   const { language } = useLang();
   const text = texts[language];
@@ -18,8 +18,8 @@ function PopUpWindow({type, description, image, description_long, tech, issues, 
       <div variant="primary" className="button" onClick={() => setShow(true)}>
         <div className='button__text'>
           <div className="button__text--descriptionHigh">
-            <h3>{description}</h3>
-            <h4>{type}</h4>
+            <h3>{text[project]['description_short']}</h3>
+            <h4>{text[project]['type']}</h4>
           </div>
           <p className="button__text--descriptionLow">
              {label['label']}<img className='button__text--descriptionLowArrow' src={arrow} alt="arrow" />
@@ -36,7 +36,7 @@ function PopUpWindow({type, description, image, description_long, tech, issues, 
       >
         <Modal.Header closeButton>
           <Modal.Title id="example-custom-modal-styling-title">
-            {description}
+            {text[project]['description_short']}
           </Modal.Title>
         </Modal.Header>
         <Modal.Body>
@@ -45,11 +45,11 @@ function PopUpWindow({type, description, image, description_long, tech, issues, 
               <img src={image} className='modal__container--image' alt={image} />
             </div>
             <div className='modal__text'>
-              <p>{description_long}</p>
-              <p>{tech}</p>
-              <p>{issues}</p>
-              <p>{skills}</p>
-              <p>{link}</p>
+              <p>{text[project]['description_long']}</p>
+              <p>{text[project]['tech']}</p>
+              <p>{text[project]['issues']}</p>
+              <p>{text[project]['skills']}</p>
+              <p>{text[project]['link']}</p>
             </div>
           </>
 
