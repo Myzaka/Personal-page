@@ -13,6 +13,9 @@
         display: flex;
         flex-direction: column;
         margin-top: 40px;
+        @media(max-width: 600px) {
+            width: 95%;
+            }
         &--title {
             font-weight: 500;
             font-size: 1.125em;

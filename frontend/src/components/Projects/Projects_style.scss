@@ -1,15 +1,18 @@
 .projects {
     display: flex;
     flex-direction: column;
-    //padding-top: 350px;
     height: 200vh;
     margin: 0;
     padding-bottom: 160 px;
     background-color: white;
+    @media(max-width: 600px) {
+        height: auto;
+        }
     &__list{
         display: flex;
         flex-direction: row;
         flex-wrap: wrap;
         justify-content:center;
+        margin-top: 200px;
     }
 }

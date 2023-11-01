@@ -1,5 +1,4 @@
 import React from 'react';
-import test from './test.png';
 import { useLang } from '../../Generic/Language_context';
 import './Card.scss';
 import PopUpWindow from '../Modal/Modal';
@@ -17,7 +16,7 @@ export default function CardPresentation({project, image}) {
       />
     </div>
     <div className="Card__comment--low">
-      <h4>{text[project]['description_short']}</h4>
+      <p>{text[project]['description_short']}</p>
     </div>
   </div>)
 }
