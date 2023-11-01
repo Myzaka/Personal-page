@@ -1,7 +1,6 @@
 import React from 'react';
 import './Projects_style.scss';
 import texts from './Projects_text.json';
-import textsProjects from './ProjectsList/ProjectisList_text.json'
 import { useLang } from '../Generic/Language_context';
 import CardPresentation from '../Generic/Card/Card';
 import projet1 from './ProjectsList/controle.png';
@@ -18,7 +17,6 @@ import projet10 from './ProjectsList/KASA.png';
 export default function Projects() {
     const { language } = useLang();
     const text = texts[language];
-    const textProject = textsProjects[language];
     return(
         <>
             <h2 className='title'>{text['title']}</h2>

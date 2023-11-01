@@ -7,10 +7,7 @@ import Services from './components/Services/Services';
 import Skills from './components/Skills/Skills';
 import Footer from './components/Footer/Footer';
 import Projects from './components/Projects/Projects';
-import Parallax from './components/Generic/Parallax';
 import { ParallaxProvider } from 'react-scroll-parallax';
-import PopUpWindow from './components/Generic/Modal/Modal';
-import Parallax2 from './components/Generic/Parallax2';
 import Contact from './components/Contact/Contact';
 
 function App() {
