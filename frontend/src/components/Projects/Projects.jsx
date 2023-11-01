@@ -4,8 +4,11 @@ import texts from './Projects_text.json';
 import textsProjects from './ProjectsList/ProjectisList_text.json'
 import { useLang } from '../Generic/Language_context';
 import CardPresentation from '../Generic/Card/Card';
+import projet1 from './ProjectsList/controle.png';
 import projet2 from './ProjectsList/Risk.png';
+import projet3 from './ProjectsList/tiers.png';
 import projet4 from './ProjectsList/alert.png';
+import projet6 from './ProjectsList/paiement.png';
 import projet8 from './ProjectsList/rgpd.png';
 import projet9 from './ProjectsList/grimoire.png';
 import projet10 from './ProjectsList/KASA.png';
@@ -21,7 +24,7 @@ export default function Projects() {
                 <div className='projects__list'>
                     <CardPresentation 
                         project="project1"
-                        image={projet10}
+                        image={projet1}
                     />
                     <CardPresentation 
                         project="project2"
@@ -29,7 +32,7 @@ export default function Projects() {
                     />
                     <CardPresentation 
                         project="project3"
-                        image={projet10}
+                        image={projet3}
                     />
                     <CardPresentation 
                         project="project4"
@@ -41,7 +44,7 @@ export default function Projects() {
                     />
                     <CardPresentation 
                         project="project6"
-                        image={projet10}
+                        image={projet6}
                     />
                     <CardPresentation 
                         project="project7"

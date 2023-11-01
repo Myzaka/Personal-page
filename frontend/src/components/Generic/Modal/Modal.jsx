@@ -35,7 +35,7 @@ function PopUpWindow({project, image}) {
         aria-labelledby="example-custom-modal-styling-title"
       >
         <Modal.Header closeButton>
-          <Modal.Title id="example-custom-modal-styling-title">
+          <Modal.Title className="modal__title" id="modal__title">
             {text[project]['description_short']}
           </Modal.Title>
         </Modal.Header>
