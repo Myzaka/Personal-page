@@ -8,6 +8,7 @@ import projet1 from './ProjectsList/controle.png';
 import projet2 from './ProjectsList/Risk.png';
 import projet3 from './ProjectsList/tiers.png';
 import projet4 from './ProjectsList/alert.png';
+import projet5 from './ProjectsList/sod.JPG';
 import projet6 from './ProjectsList/paiement.png';
 import projet7 from './ProjectsList/qlik.png';
 import projet8 from './ProjectsList/rgpd.png';
@@ -41,7 +42,7 @@ export default function Projects() {
                     />
                     <CardPresentation 
                         project="project5"
-                        image={projet10}
+                        image={projet5}
                     />
                     <CardPresentation 
                         project="project6"

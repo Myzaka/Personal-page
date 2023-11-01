@@ -54,7 +54,7 @@ function PopUpWindow({project, image}) {
               <p className='modal__text--title'>{text[project]['skills_label']}</p>
               <p>{text[project]['skills']}</p>
               <p className='modal__text--title'>{text[project]['link_label']}</p>
-              <a href={text[project]['link']}>{text[project]['link']}</a>
+              <a href={text[project]['link']} className='modal__text--url'>{text[project]['link']}</a>
             </div>
           </>
 
