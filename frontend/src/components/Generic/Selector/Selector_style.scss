@@ -1,0 +1,29 @@
+.Selector {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    margin-top: 100px;
+    border: 1px solid #E50D6D;
+    padding:10px;
+    border-radius: 25px;
+    max-width: 80%;
+    align-self: center;
+    @media(max-width: 600px) {
+        margin-top: 50px;
+        flex-direction: column;
+        justify-content:center;
+        border: none;
+        }
+    &__button {
+        margin: 0 10px;
+        border-radius: 20px;
+        border: none;
+        background-color: white;
+        color: #E50D6D;
+        padding : 3px 10px;
+        @media(max-width: 600px) {
+            border: 1px solid #E50D6D;
+            margin: 5px 0;
+            }
+    }
+}

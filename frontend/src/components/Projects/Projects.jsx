@@ -1,69 +1,58 @@
-import React from 'react';
+import React, { useState, useEffect } from 'react';
+import Axios from 'axios';
 import './Projects_style.scss';
 import texts from './Projects_text.json';
 import { useLang } from '../Generic/Language_context';
 import CardPresentation from '../Generic/Card/Card';
-import projet1 from './ProjectsList/controle.png';
-import projet2 from './ProjectsList/Risk.png';
-import projet3 from './ProjectsList/tiers.png';
-import projet4 from './ProjectsList/alert.png';
-import projet5 from './ProjectsList/sod.JPG';
-import projet6 from './ProjectsList/paiement.png';
-import projet7 from './ProjectsList/qlik.png';
-import projet8 from './ProjectsList/rgpd.png';
-import projet9 from './ProjectsList/grimoire.png';
-import projet10 from './ProjectsList/KASA.png';
 
-export default function Projects() {
+export default function Projects({filter}) {
     const { language } = useLang();
     const text = texts[language];
-    return(
+    const [projectsData, setProjectsData] = useState({});
+
+    useEffect(() => {
+        Axios.get("./ProjectisList_text.json")
+            .then((response) => {
+                const data = response.data[language];
+                if (data) {
+                    setProjectsData(data); // Mettez à jour l'état avec les données JSON spécifiques à la langue
+                } else {
+                    console.error('Aucune donnée trouvée pour la langue :', language);
+                }
+            })
+            .catch((error) => {
+                console.error('Erreur lors du chargement des données JSON :', error);
+            });
+    }, [language]);
+
+    // Filtrer les projets en fonction du bouton cliqué
+    const filteredProjects = Object.keys(projectsData).filter(key => {
+        if (filter === 'Tous') {
+            return true; // Affichez tous les projets si le filtre est "Tous"
+        } else {
+            return projectsData[key].category === filter; // Sinon, filtrez en fonction de la catégorie
+        }
+    });
+
+    return (
         <>
             <h2 className='title'>{text['title']}</h2>
             <section className='projects' id='projects'>
                 <div className='projects__list'>
-                    <CardPresentation 
-                        project="project1"
-                        image={projet1}
-                    />
-                    <CardPresentation 
-                        project="project2"
-                        image={projet2}
-                    />
-                    <CardPresentation 
-                        project="project3"
-                        image={projet3}
-                    />
-                    <CardPresentation 
-                        project="project4"
-                        image={projet4}
-                    />
-                    <CardPresentation 
-                        project="project5"
-                        image={projet5}
-                    />
-                    <CardPresentation 
-                        project="project6"
-                        image={projet6}
-                    />
-                    <CardPresentation 
-                        project="project7"
-                        image={projet7}
-                    />
-                    <CardPresentation 
-                        project="project8"
-                        image={projet8}
-                    />
-                    <CardPresentation 
-                        project="project9"
-                        image={projet9}
-                    />
-                    <CardPresentation 
-                        project="project10"
-                        image={projet10}
-                    />
+                    {filteredProjects.map((key) => {
+                        const project = projectsData[key];
+                        const imagePath = `${project.image}`;
+                        console.log(imagePath);
+                        return (
+                            <CardPresentation
+                                key={key}
+                                project={key}
+                                image={imagePath}
+                            />
+                        );
+                    })}
                 </div>
             </section>
         </>
-    )
+    );
 }

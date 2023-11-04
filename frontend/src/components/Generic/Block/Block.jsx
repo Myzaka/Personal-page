@@ -1,7 +1,7 @@
 import React, { useState } from 'react';
 import './Block_style.scss';
 
-export default function Block({ title, sentence }) {
+/*export default function Block({ title, sentence }) {
   const sentences = sentence.split('.');
   const filteredSentences = sentences.filter(e => e.trim() !== '');
 
@@ -39,4 +39,30 @@ export default function Block({ title, sentence }) {
       
     </div>
   );
+}*/
+
+
+import Accordion from 'react-bootstrap/Accordion';
+
+function Block({ title, sentence }) {
+  const sentences = sentence.split('.');
+  const filteredSentences = sentences.filter(e => e.trim() !== '');
+  return (
+    <Accordion defaultActiveKey="0" className='block'>
+      <Accordion.Item eventKey="0">
+        <Accordion.Header >{title}</Accordion.Header>
+        <Accordion.Body>
+          {filteredSentences.map((e, index) => (
+              <p
+                key={index}
+              >
+                {e.trim()}.
+              </p>
+            ))}
+        </Accordion.Body>
+      </Accordion.Item>
+    </Accordion>
+  );
 }
+
+export default Block;

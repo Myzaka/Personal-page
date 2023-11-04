@@ -1,0 +1,14 @@
+{
+    "fr": {
+      "title":"Réalisations",
+      "button1": "Tous projets",
+      "button2": "Gestion de projet",
+      "button3": "Projets de développement"
+    },
+    "en": {
+        "title":"Projects",
+        "button1": "All projects",
+        "button2": "Project Management",
+        "button3": "Development projects"
+    }
+  }

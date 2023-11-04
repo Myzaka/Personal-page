@@ -9,6 +9,7 @@ import Footer from './components/Footer/Footer';
 import Projects from './components/Projects/Projects';
 import { ParallaxProvider } from 'react-scroll-parallax';
 import Contact from './components/Contact/Contact';
+import Selector from './components/Generic/Selector/Selector';
 
 function App() {
   const sectionIds = useMemo(() => ['header', 'presentation', 'services', 'skills', 'projects', 'contact'], []);
@@ -46,7 +47,7 @@ function App() {
           <Presentation />
           <Services />
           <Skills />
-          <Projects />
+          <Selector />
           <Contact />
           <Footer />
         </div>

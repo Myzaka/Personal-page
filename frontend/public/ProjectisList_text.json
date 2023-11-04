@@ -3,6 +3,7 @@
         "project1": {
             "category":"Gestion",
             "type":"Gestion de projet",
+            "image":"projet1.png",
             "description_short":"Outil d'auto-évaluation du contrôle interne",
             "description_label":"Description",
             "description_long":"Déploiement et animation d'outils permettant la collecte d'informations sur l'état du contrôle interne dans une centaine de sociétés, situées dans le monde entier et faisant intervenir plusieurs centaines d'utilisateurs",
@@ -16,6 +17,7 @@
         "project2": {
             "category":"Developpement",
             "type":"Conception d'outil",
+            "image":"projet2.png",
             "description_short":"Cartographie des risques",
             "description_label":"Description",
             "description_long":"Elaboration d'un outil de cotation des risques et de représentation d'une matrice de chaleur",
@@ -27,6 +29,7 @@
         "project3": {
             "category":"Gestion",
             "type":"Gestion de projet",
+            "image":"projet3.png",
             "description_short":"Outil d'évaluation des tiers (loi Sapin II)",
             "description_label":"Description",
             "description_long":"Déploiement d'un outil permettant la revue complète d'un portefeuille de contreparties pour vérifier leur honorabilité",
@@ -38,6 +41,7 @@
         "project4": {
             "category":"Gestion",
             "type":"Gestion de projet",
+            "image":"projet4.png",
             "description_short":"Ligne d'alerte éthique (loi Sapin II)",
             "description_label":"Description",
             "description_long":"Déploiement mondial d'un outil permettant de réaliser des signalements confidentiels de situations problématiques",
@@ -51,6 +55,7 @@
         "project5": {
             "category":"Developpement",
             "type":"Conception d'outil",
+            "image":"projet5.png",
             "description_short":"Analyse de la séparation des tâches en entreprise",
             "description_label":"Description",
             "description_long":"Conception et développement d'un outil permettant d'identifier en détail les enjeux de séparation des tâches et de formuler des recommandations d'amélioration",
@@ -62,6 +67,7 @@
         "project6": {
             "category":"Developpement",
             "type":"Développement web frontend",
+            "image":"projet6.png",
             "description_short":"Evaluation de la conformité de moyens de paiement",
             "description_label":"Description",
             "description_long":"Portage web d'une méthode d'évaluation de la sécurité et de la conformité réglementaire de moyens de paiement utilisés en entreprise",
@@ -75,6 +81,7 @@
         "project7": {
             "category":"Gestion",
             "type":"Gestion de projet",
+            "image":"projet7.png",
             "description_short":"Outil de BI pour l'analyse de campagnes de contrôle interne",
             "description_label":"Description",
             "description_long":"Outil permettant d'analyser finement les informations collectées par questionnaire dans le monde entier, et d'en assurer la consolidation sous forme de tableaux synthétiques pour présentation au Management",
@@ -88,6 +95,7 @@
         "project8": {
             "category":"Gestion",
             "type":"Gestion de projet",
+            "image":"projet8.png",
             "description_short":"Outil de tenue de registre de traitement (RGPD)",
             "description_label":"Description",
             "description_long":"Déploiement de l'outil et constitution du registre des traitements d'une grande société française",
@@ -101,6 +109,7 @@
         "project9": {
             "category":"Developpement",
             "type":"Développement web frontend",
+            "image":"projet9.png",
             "description_short":"Développement du front d'un site de gestion immobilière",
             "description_label":"Description",
             "description_long":"Projet réalisé dans le cadre de ma formation OpenClassrooms de développeur front-end.",
@@ -117,6 +126,7 @@
         "project10": {
             "category":"Developpement",
             "type":"Développement web backend",
+            "image":"projet10.png",
             "description_short":"Création du backend d'une librairie en ligne",
             "description_label":"Description",
             "description_long":"Projet réalisé dans le cadre de ma formation OpenClassrooms de développeur front-end.",
@@ -134,6 +144,7 @@
         "project1": {
             "category":"Gestion",
             "type":"Project Management",
+            "image":"projet1.png",
             "description_short":"Internal control self-assessment software",
             "description_label":"Description",
             "description_long":"Roll-out of a software enabling the collection of information on the state of internal control in around a hundred companies, located worldwide and involving several hundred users",
@@ -147,6 +158,7 @@
         "project2": {
             "category":"Developpement",
             "type":"Development",
+            "image":"projet2.png",
             "description_short":"Risk mapping",
             "description_label":"Description",
             "description_long":"Elaboration of a risk rating and heat matrix representation tool",
@@ -158,6 +170,7 @@
         "project3": {
             "category":"Gestion",
             "type":"Project Management",
+            "image":"projet3.png",
             "description_short":"Third-party evaluation tool (Sapin II law)",
             "description_label":"Description",
             "description_long":"Roll out of a software enabling a complete review of a portfolio of counterparties to check their exposition in tems of corruption and international economic sanctions",
@@ -169,6 +182,7 @@
         "project4": {
             "category":"Gestion",
             "type":"Project Management",
+            "image":"projet4.png",
             "description_short":"Ethics Line (Sapin II law)",
             "description_label":"Description",
             "description_long":"Worldwide roll out of a tool for confidential reporting of problematic situations",
@@ -182,6 +196,7 @@
         "project5": {
             "category":"Developpement",
             "type":"Development",
+            "image":"projet5.png",
             "description_short":"Analysis of segregation of duties in a company",
             "description_label":"Description",
             "description_long":"Design and development of a tool for the detailed identification of segregation of duties issues and the formulation of recommendations for improvement",
@@ -193,6 +208,7 @@
         "project6": {
             "category":"Developpement",
             "type":"Frontend web development",
+            "image":"projet6.png",
             "description_short":"Compliance assessment of means of payment",
             "description_label":"Description",
             "description_long":"Web development of a method for assessing the security and regulatory compliance of corporate payment instruments",
@@ -206,6 +222,7 @@
         "project7": {
             "category":"Gestion",
             "type":"Project Management",
+            "image":"projet7.png",
             "description_short":"Outil de BI pour l'analyse de campagnes de contrôle interne",
             "description_label":"Description",
             "description_long":"Implementation of a software for detailed analysis of information collected by questionnaires worldwide, and consolidation into summary tables for presentation to management",
@@ -219,6 +236,7 @@
         "project8": {
             "category":"Gestion",
             "type":"Project Management",
+            "image":"projet8.png",
             "description_short":"Data processing register (GDPR)",
             "description_label":"Description",
             "description_long":"Tool roll out and elaboration of the processing register for a major French company",
@@ -232,6 +250,7 @@
         "project9": {
             "category":"Developpement",
             "type":"Frontend web development",
+            "image":"projet9.png",
             "description_short":"Front-end development for a property management website",
             "description_label":"Description",
             "description_long":"Project carried out as part of my OpenClassrooms front-end developer training course.",
@@ -248,6 +267,7 @@
         "project10": {
             "category":"Developpement",
             "type":"Web backend development",
+            "image":"projet10.png",
             "description_short":"Creation of an online bookstore backend",
             "description_label":"Description",
             "description_long":"Project carried out as part of my OpenClassrooms front-end developer training course.",
