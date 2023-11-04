@@ -36,23 +36,18 @@ export default function Projects({filter}) {
 
     return (
         <>
-            <h2 className='title'>{text['title']}</h2>
-            <section className='projects' id='projects'>
-                <div className='projects__list'>
-                    {filteredProjects.map((key) => {
-                        const project = projectsData[key];
-                        const imagePath = `${project.image}`;
-                        console.log(imagePath);
-                        return (
-                            <CardPresentation
-                                key={key}
-                                project={key}
-                                image={imagePath}
-                            />
-                        );
-                    })}
-                </div>
-            </section>
+            {filteredProjects.map((key) => {
+                const project = projectsData[key];
+                const imagePath = `${project.image}`;
+                console.log(imagePath);
+                return (
+                    <CardPresentation
+                        key={key}
+                        project={key}
+                        image={imagePath}
+                    />
+                );
+            })}
         </>
     );
 }
