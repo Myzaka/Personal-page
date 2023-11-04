@@ -10,6 +10,7 @@ import Projects from './components/Projects/Projects';
 import { ParallaxProvider } from 'react-scroll-parallax';
 import Contact from './components/Contact/Contact';
 import Selector from './components/Generic/Selector/Selector';
+import Disclaimer from './components/Generic/Disclaimer/Disclaimer';
 
 function App() {
   const sectionIds = useMemo(() => ['header', 'presentation', 'services', 'skills', 'projects', 'contact'], []);
@@ -45,6 +46,7 @@ function App() {
         <Header activeSection={activeSection} />
         <div className='body'>
           <Presentation />
+          <Disclaimer />
           <Services />
           <Skills />
           <Selector />

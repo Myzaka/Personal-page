@@ -1,0 +1,12 @@
+.disclaimer {
+    background-color: #E50D6D;
+    color: white;
+    width: 50%;
+    z-index: 999;
+    position: fixed;
+    top: 80vh;
+    left: 80vw;
+    padding: 10px;
+    font-weight: bold;
+    box-shadow: 0px 5px 10px rgba(0, 0, 0, 0.2); /* Ombre pour l'effet en relief */
+}
