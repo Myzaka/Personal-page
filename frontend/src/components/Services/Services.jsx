@@ -13,6 +13,7 @@ export default function Services() {
     const text = texts[language];
     return(
         <>
+        <p className="anchor-offset" id='anchor1'></p>
         <h2 className='title'>
             {text['title']}
         </h2>

@@ -1,0 +1,21 @@
+{
+    "fr": {
+      "links": [
+        { "text": "Accueil", "url": "#presentation" },
+        { "text": "Services", "url": "#anchor1" },
+        { "text": "Compétences", "url": "#anchor2" },
+        { "text": "Réalisations", "url": "#anchor3" },
+        { "text": "Contact", "url": "#anchor4" }
+      ]
+    },
+    "en": {
+      "links": [
+        { "text": "Home", "url": "#presentation" },
+        { "text": "Services", "url": "#anchor1" },
+        { "text": "Skills", "url": "#anchor2" },
+        { "text": "Projects", "url": "#anchor3" },
+        { "text": "Contact", "url": "#anchor4" }
+      ]
+    }
+  }
+  

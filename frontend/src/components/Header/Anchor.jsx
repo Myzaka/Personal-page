@@ -19,8 +19,6 @@ export default function Anchor({ label, active }) {
             var headerOffset = 230;
             var elementPosition = targetElement.getBoundingClientRect().top;
             var offsetPosition = elementPosition + window.scrollY - headerOffset;
-            console.log(offsetPosition);
-            console.log('test');
             window.scrollTo({
                 top: offsetPosition,
                 behavior: "smooth"

@@ -13,6 +13,17 @@
     width: 100%;
     background-color: white;
     z-index: 999;
+    &__show {
+        display: flex;
+        flex-direction: row;
+        list-style-type: none;
+        @media(max-width: 800px) {
+            visibility: hidden;
+                }
+        &--item {
+            margin: 0 10px;
+        }
+    }
     &__list{
         display: flex;
         flex-direction: row;

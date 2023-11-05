@@ -39,7 +39,6 @@ export default function Projects({filter}) {
             {filteredProjects.map((key) => {
                 const project = projectsData[key];
                 const imagePath = `${project.image}`;
-                console.log(imagePath);
                 return (
                     <CardPresentation
                         key={key}

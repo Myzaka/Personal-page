@@ -10,6 +10,7 @@ export default function Skills() {
     const text = texts[language];
     return(
         <>
+            <p className="anchor-offset" id='anchor2'></p>
             <h2 className='title'>
                 {text['title']}
             </h2>

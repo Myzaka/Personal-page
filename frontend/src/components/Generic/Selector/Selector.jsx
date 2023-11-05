@@ -71,6 +71,7 @@ export default function Selector() {
 
   return (
     <>
+      <p className="anchor-offset" id='anchor3'></p>
       <h2 className='title'>{text['title']}</h2>
       <section className='projects' id='projects'>
         <div className='Selector' id='Selector'>
