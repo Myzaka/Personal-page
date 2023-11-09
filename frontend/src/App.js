@@ -13,7 +13,7 @@ import Selector from './components/Generic/Selector/Selector';
 import Disclaimer from './components/Generic/Disclaimer/Disclaimer';
 
 function App() {
-  const sectionIds = useMemo(() => ['header', 'presentation', 'services', 'skills', 'projects', 'contact'], []);
+  const sectionIds = useMemo(() => ['header', 'presentation', 'services', 'projects', 'contact'], []);
 
   const [activeSection, setActiveSection] = useState(sectionIds[0]);
 
@@ -48,7 +48,6 @@ function App() {
           <Presentation />
           <Disclaimer />
           <Services />
-          <Skills />
           <Selector />
           <Contact />
           <Footer />

@@ -12,7 +12,6 @@ export default function Header({ activeSection }) {
       <div className='header__show'>
         <Anchor label='presentation' active={activeSection === 'presentation' ? 'Y' : 'N'} />
         <Anchor label='services' active={activeSection === 'services' ? 'Y' : 'N'} />
-        <Anchor label='skills' active={activeSection === 'skills' ? 'Y' : 'N'} />
         <Anchor label='projects' active={activeSection === 'projects' ? 'Y' : 'N'} />
         <Anchor label='contact' active={activeSection === 'contact' ? 'Y' : 'N'} />
       </div>

@@ -8,7 +8,7 @@ export default function CardPresentation({project, image}) {
   const { language } = useLang();
   const text = texts[language];
   return(<div className="Card">
-    <img className="Card__image" src={image} alt ={image} />
+    <img className="Card__image" src={process.env.PUBLIC_URL + '/' + image} alt ={image} />
     <div className='Card__overlay'>
       <PopUpWindow
         project={project}
