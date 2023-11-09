@@ -1,13 +1,11 @@
 import React, { useState, useEffect } from 'react';
 import Axios from 'axios';
 import './Projects_style.scss';
-import texts from './Projects_text.json';
 import { useLang } from '../Generic/Language_context';
 import CardPresentation from '../Generic/Card/Card';
 
 export default function Projects({filter}) {
     const { language } = useLang();
-    const text = texts[language];
     const [projectsData, setProjectsData] = useState({});
 
     useEffect(() => {
@@ -39,6 +37,7 @@ export default function Projects({filter}) {
             {filteredProjects.map((key) => {
                 const project = projectsData[key];
                 const imagePath = `${project.image}`;
+                console.log(imagePath);
                 return (
                     <CardPresentation
                         key={key}

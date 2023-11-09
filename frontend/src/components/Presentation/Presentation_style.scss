@@ -13,8 +13,10 @@
     &__panel1 {
         display: flex;
         flex-direction: column;
-        width: 30%;
+        width: 38%;
         justify-content: center;
+        background-color: #003063;
+        color: white;
         @media(max-width: 600px) {
             width: 95%;
             margin: 10% 0;
@@ -22,6 +24,7 @@
     }
     &__panel2 {
         display: flex;
+        flex-direction: column;
         justify-content: center;
         align-items: center;
         width: 60%;
@@ -29,11 +32,17 @@
             width: 95%;
             font-size: .8em;
             }
+        &--photo {
+            width:25%;
+            border-radius: 50%;
+        }
     }
     &__maintitle {
-        font-size: 1.5em;
+        font-size: 2em;
+        margin-left: 10px;
     }
     &__subtitle {
-        font-size: 1.2em;
+        font-size: 24px;
+        margin: 40px 0 0 10px;
     }
 }
