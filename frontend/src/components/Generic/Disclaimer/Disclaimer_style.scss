@@ -1,13 +1,44 @@
 .disclaimer {
+    display: flex;
+    flex-direction: row;
     background-color: #E50D6D;
+    justify-content: space-between;
     color: white;
-    width: 30%;
+    max-width: 40%;
     z-index: 999;
     position: fixed;
     top: 80vh;
     left: 35%;
-    padding: 10px;
-    text-align: center;
-    font-weight: bold;
-    box-shadow: 0px 5px 10px rgba(0, 0, 0, 0.2); /* Ombre pour l'effet en relief */
-}
+    margin: 0;
+    animation: slideIn 0.5s ease-out forwards; // Ajout de l'animation
+  
+    // Reste de votre code inchangé
+  }
+  
+  @keyframes slideIn {
+    0% {
+      transform: translateX(100%);
+      opacity: 0;
+    }
+    100% {
+      transform: translateX(0);
+      opacity: 1;
+    }
+  }
+  
+  .disclaimer__text {
+    padding: 15px;
+    margin: 0;
+  }
+  
+  .closeButton {
+    border: none;
+    background-color: #E50D6D;
+    color: white;
+    font-size: 20px;
+    font-weight: 700;
+    align-self: self-start;
+    cursor: pointer;
+  }
+  
+  
