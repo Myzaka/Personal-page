@@ -1,6 +1,23 @@
 .contact {
+    display: flex;
+    flex-direction: column;
     background-color: white;
     padding-bottom: 140px;
+    font-size: 25px;
+    color: #E50D6D;
+    padding: 60px 0 60px 60px;
+    &__item {
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+        &--icon {
+            font-size: 40px;
+            margin: 20px;
+        }
+        &--text {
+            margin: 0;
+        }
+    }
 }
 
 .form {

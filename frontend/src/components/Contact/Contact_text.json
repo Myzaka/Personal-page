@@ -2,13 +2,15 @@
     "fr": {
       "title":"Contact",
       "messageTitle": "Titre du message",
-      "email": "Adresse email",
-      "message": "Message"
+      "email": "jerome.semik@hello.com",
+      "message": "Message",
+      "phone":"+33 6 01 23 45 67"
     },
     "en": {
       "title":"Contact",
       "messageTitle": "Message title",
-      "email": "Email address",
-      "message": "Message"
+      "email": "jerome.semik@hello.com",
+      "message": "Message",
+      "phone":"+33 6 01 23 45 67"
     }
   }
