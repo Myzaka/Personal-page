@@ -41,7 +41,7 @@ function PopUpWindow({project, image}) {
         <Modal.Body>
           <>
             <div className='modal__container'>
-              <img src={image} className='modal__container--image' alt={image} />
+              <img src={process.env.PUBLIC_URL + '/' + image} className='modal__container--image' alt={image} />
             </div>
             <div className='modal__text'>
               <p className='modal__text--title'>{text[project]['description_label']}</p>
