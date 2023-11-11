@@ -1,5 +1,11 @@
 import React, { useState } from 'react';
 import './Block_style.scss';
+import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
+import { faCompassDrafting } from '@fortawesome/free-solid-svg-icons'
+import { faDigging } from '@fortawesome/free-solid-svg-icons'
+
+const compass = <FontAwesomeIcon icon={faCompassDrafting} />
+const digging = <FontAwesomeIcon icon={faDigging} />
 
 /*export default function Block({ title, sentence }) {
   const sentences = sentence.split('.');
@@ -41,27 +47,24 @@ import './Block_style.scss';
   );
 }*/
 
-
-import Accordion from 'react-bootstrap/Accordion';
-
-function Block({ title, sentence }) {
+function Block({ title, sentence, icon }) {
   const sentences = sentence.split('.');
   const filteredSentences = sentences.filter(e => e.trim() !== '');
   return (
-    <Accordion defaultActiveKey="0" className='block'>
-      <Accordion.Item eventKey="0">
-        <Accordion.Header >{title}</Accordion.Header>
-        <Accordion.Body>
-          {filteredSentences.map((e, index) => (
-              <p
-                key={index}
-              >
-                {e.trim()}.
-              </p>
-            ))}
-        </Accordion.Body>
-      </Accordion.Item>
-    </Accordion>
+    <div className='block'>
+      <div className='block__icon'>
+        <i>{icon}</i>
+      </div>
+      <h2 className='block__title'>{title}</h2>
+      {filteredSentences.map((e, index) => (
+            <p
+            className='block__body'
+              key={index}
+            >
+              {e.trim()}.
+            </p>
+          ))}
+    </div>
   );
 }
 
