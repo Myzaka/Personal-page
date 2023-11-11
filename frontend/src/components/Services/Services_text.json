@@ -4,17 +4,17 @@
       "title1": "Qualification des besoins",
       "text1": "Analyse de vos besoins en solutions informatiques, selon vos enjeux de risques et de conformité. Elaboration de cahiers des charges.",
       "title2": "Gestion de projet",
-      "text2": "Gestion de bout en bout, de l'appel d'offre à l'accompagnement au changement. Habitué à des environnements de travail exigeants et complexes",
+      "text2": "Gestion de bout en bout, de l'appel d'offre à l'accompagnement au changement. Habitué à des environnements de travail exigeants et complexes.",
       "title3": "Développement d'outils",
       "text3": "Outils de gestion des risques et de conformité légers. Maquettes pour des projets plus ambitieux. Technologies utilisées : HTML, SASS, JavaScript, React, Vite, MongoDB"
     },
     "en": {
       "title":"Services",
-      "title1": "Analysis of IT solution requirements, preparation of specifications",
-      "text1": "Upstream of the project, I work with your teams to analyze your specific IT solution requirementsin order to meet your risks and compliance challenges. I draw up a complete specification for you, guaranteeing that the proposed solution will fully meet your expectations and your company's risks and compliance challenges.",
-      "title2": "End-to-end management of complex IT projects, conducted in French or in English",
-      "text2": "I provide end-to-end management of your IT projects regarding risks management or compliance: calls for tender, project governance, qualification and follow-up of actions, documentation, budget follow-up, change management. Accustomed to complex, international working environments, I can work with all types of stakeholders, from operational staff to the Executive Committee or Board of Directors.",
-      "title3": "Development of lightweight IT solutions for risks management and compliance",
-      "text3": "I develop simple, low-cost risks management or compliance tools to make teams' work easier. I also develop mock-ups to initiate more ambitious projects."
+      "title1": "Qualification of requirements",
+      "text1": "Analysis of your IT solution requirements, based on your risk and compliance stakes. Drawing up specifications.",
+      "title2": "Project Management",
+      "text2": "End-to-end management, from call for tender to change management. Accustomed to demanding and complex working environments.",
+      "title3": "IT solutions development",
+      "text3": "Simple risk management and compliance tools. Mock-ups for more ambitious projects. Technologies used: HTML, SASS, JavaScript, React, Vite, MongoDB."
     }
   }
