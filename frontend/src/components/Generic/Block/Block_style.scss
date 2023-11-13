@@ -1,8 +1,8 @@
 .block {
     display: flex;
     flex-direction: column;
-    margin-top: 100px;
-    width: 30%;
+    margin: 100px 2% 0 2%;
+    width: 29%;
     height: auto;
     border: 2px solid #E50D6D;
     box-shadow: 0px 2px 4px rgba(229, 13, 109, 0.4);
@@ -10,8 +10,8 @@
     //background-image: linear-gradient(rgba(0, 48, 99, 0.7), rgba(0, 48, 99, 0.7));
     color:#003063;
     border-radius: 25px;
-    @media(max-width: 600px) {
-        margin-top: 0;
+    @media(max-width: 1000px) {
+        margin-top: 80px;
         width: 100%;
         }
     &__icon {
@@ -39,8 +39,9 @@
         transition: max-height .6s;
         //padding: 10px;
         margin-top: 80px;
-        @media(max-width: 600px) {
-            margin: 0;
+        @media(max-width: 1000px) {
+            height: auto;
+            margin-top: 70px;
             }
     }
     &__body {
