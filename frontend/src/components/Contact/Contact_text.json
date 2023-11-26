@@ -4,13 +4,15 @@
       "messageTitle": "Titre du message",
       "email": "jerome.semik@hello.com",
       "message": "Message",
-      "phone":"+33 6 01 23 45 67"
+      "phone":"+33 6 01 23 45 67",
+      "alert":"Ces coordonnées ne sont pas réelles, il s'agit d'un site de test"
     },
     "en": {
       "title":"Contact",
       "messageTitle": "Message title",
       "email": "jerome.semik@hello.com",
       "message": "Message",
-      "phone":"+33 6 01 23 45 67"
+      "phone":"+33 6 01 23 45 67",
+      "alert":"Dummy contact details, this is a test site"
     }
   }

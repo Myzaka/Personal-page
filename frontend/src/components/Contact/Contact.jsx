@@ -105,6 +105,9 @@ export default function Contact() {
           <FontAwesomeIcon className='contact__item--icon' icon={faEnvelope} />
           <p className='contact__item--text'>{text['email']}</p>
         </div>
+        <div className='contact__item'>
+          <p className='contact__item--text'>{text['alert']}</p>
+        </div>
         
       </section>
     </>
