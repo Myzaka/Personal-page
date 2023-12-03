@@ -138,6 +138,22 @@
             "skills":"Utilisation d'une base de données NoSQL (MongoDB) et mise en place d'un modèle de données. Mettre en place des opérations CRUD de manière sécurisée. Stocker des données de manière sécurisée",
             "link_label":"Accès repo GitHub",
             "link":"https://github.com/Myzaka/Grimoire"
+        },
+        "project11": {
+            "category":"Developpement",
+            "type":"Développement web backend",
+            "image":"projet10.png",
+            "description_short":"Création du backend d'une librairie en ligne",
+            "description_label":"Description",
+            "description_long":"Projet réalisé dans le cadre de ma formation OpenClassrooms de développeur front-end.",
+            "tech_label":"Technologies utilisées",
+            "tech":"NodeJS, Express, MongoDB, Mongoose",
+            "issues_label":"Difficultées rencontrées",
+            "issues":"Création des opérations CRUD. Gestion des fichiers images.",
+            "skills_label":"Compétences acquises",
+            "skills":"Utilisation d'une base de données NoSQL (MongoDB) et mise en place d'un modèle de données. Mettre en place des opérations CRUD de manière sécurisée. Stocker des données de manière sécurisée",
+            "link_label":"Accès repo GitHub",
+            "link":"https://github.com/Myzaka/Grimoire"
         }
     },
     "en": {
